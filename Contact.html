@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Hemansingh Lutchmun</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        .left-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 10px;
+            text-align: left;
+        }
+        .left-text p {
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0;       
+            margin: 20px 0;
+        }
+        ul li {
+            margin-right: 20px;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+        /* New style for combining email and Instagram links */
+        .contact-links {
+            margin-top: 200px; /* Adjust this to control overall vertical position */
+            text-align: center;
+        }
+        .contact-links a {
+            display: block; /* Ensure they stack on top of each other */
+            margin-bottom: 10px; /* Space between the two links */
+            font-style: italic; /* Italicize the text */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="left-text">
+        <p>Hemansingh Lutchmun</p>
+        <p>b. 1995, Mauritius</p>
+    </div>
+
+    <ul>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="contact-links"> <!-- Single container for both links -->
+        <a href="mailto:hlutchmun@gmail.com">hlutchmun@gmail.com</a>
+        <a href="https://instagram.com/hemansinghlutchmun" target="_blank">Instagram: @hemansinghlutchmun</a>
+    </div>
+
+</body>
+</html>
